@@ -1224,13 +1224,18 @@ nav {
         width: 90%;
     }
     .carousel {
-        left: -300px;
+        left: -320px;
     }
     .item {
         gap: 40px 20px;
     }
     .carousel-wrapper {
-        height: 1470px;
+        height: 1390px;
+    }
+}
+@media (max-width: 340px) {
+    .carousel {
+        left: -300px;
     }
 }
 /*=======================================================================================*/
@@ -1948,7 +1953,7 @@ input[type=range]::-ms-thumb {
     .mini-testimonials {
         position: fixed;
         top: 150px;
-        left: -100%;
+        left: -1000px;
         width: 320px;
         height: 470px;
         background-color: white;
