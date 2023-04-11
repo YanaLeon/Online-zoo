@@ -670,7 +670,8 @@ nav {
         padding-top: 108px;
     }
     .backstage-wrapper{
-        height: 584px;
+        height: auto;
+        margin-bottom: 15px;
     }
     .image-backstage-first {
         display: none;
@@ -1091,8 +1092,10 @@ nav {
 }
 @media (max-width: 850px) {
     .carousel {
-        left: -693px;
+        left: -690px;
     }
+}
+@media (max-width: 850px) {
     @keyframes move-right {
         from {left: -1100;}
         to {left: -1400px;}
@@ -1114,10 +1117,35 @@ nav {
         from {left: -1050px;}
         to {left: 0px;}
     }
-    
     .transition-left {
         animation-name: move-left;
         animation-duration: 5s;
+    }
+}
+@media (max-width: 790px) {
+    .carousel {
+        left: -630px;
+    }
+}
+@media (max-width: 730px) {
+    .carousel {
+        left: -580px;
+    }
+    #btn-left {
+        left: 200px;
+    }
+    #btn-right {
+        right: 200px;
+    }
+}
+@media (max-width: 700px) {
+    .carousel {
+        left: -560px;
+    }
+}
+@media (max-width: 670px) {
+    .carousel {
+        left: -520px;
     }
 }
 @media (max-width: 640px) {
@@ -1180,14 +1208,45 @@ nav {
         animation-duration: 5s;
     }
 }
+@media (max-width: 570px) {
+    .carousel {
+        left: -390px;
+    }
+}
 @media (max-width: 550px) {
     .slider{
         padding-left: 0px;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 500px) {
+    .carousel {
+        left: -330px;
+    }
+}
+@media (max-width: 460px) {
+    .carousel {
+        left: -270px;
+    }
+}
+@media (max-width: 400px) {
+    .carousel {
+        left: -240px;
+    }
+    .pets-footer {
+        flex-direction: column;
+    }
+    #btn-left {
+        left: 100px;
+    }
+}
+@media (max-width: 360px) {
+    .carousel {
+        left: -210px;
+    }
+}
+@media (max-width: 340px) {
     .pets-content{
-        max-width: 320px;
+        max-width: 340px;
         margin-top: 20px;
         -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -1221,16 +1280,18 @@ nav {
         display: none;
     }
     .card {
-        width: 90%;
+        width: 80%;
     }
     .carousel {
-        left: -300px;
+        left: -320px;
     }
     .item {
         gap: 40px 20px;
+        justify-content: center;
+        max-height: 370px;
     }
     .carousel-wrapper {
-        height: 1470px;
+        height: fit-content;
     }
 }
 /*=======================================================================================*/
@@ -1948,7 +2009,7 @@ input[type=range]::-ms-thumb {
     .mini-testimonials {
         position: fixed;
         top: 150px;
-        left: -100%;
+        left: -500px;
         width: 320px;
         height: 470px;
         background-color: white;
