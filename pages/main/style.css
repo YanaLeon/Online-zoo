@@ -1120,6 +1120,32 @@ nav {
         animation-duration: 5s;
     }
 }
+@media (max-width: 790px) {
+    .carousel {
+        left: -630px;
+    }
+}
+@media (max-width: 730px) {
+    .carousel {
+        left: -580px;
+    }
+    #btn-left {
+        left: 200px;
+    }
+    #btn-right {
+        right: 200px;
+    }
+}
+@media (max-width: 700px) {
+    .carousel {
+        left: -560px;
+    }
+}
+@media (max-width: 670px) {
+    .carousel {
+        left: -520px;
+    }
+}
 @media (max-width: 640px) {
     .pets-text-title{
         font-size: 12.47px;
@@ -1180,9 +1206,35 @@ nav {
         animation-duration: 5s;
     }
 }
+@media (max-width: 570px) {
+    .carousel {
+        left: -390px;
+    }
+}
 @media (max-width: 550px) {
     .slider{
         padding-left: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .carousel {
+        left: -330px;
+    }
+}
+@media (max-width: 460px) {
+    .carousel {
+        left: -270px;
+    }
+}
+@media (max-width: 400px) {
+    .carousel {
+        left: -240px;
+    }
+    .pets-footer {
+        flex-direction: column;
+    }
+    #btn-left {
+        left: 100px;
     }
 }
 @media (max-width: 380px) {
@@ -1224,7 +1276,7 @@ nav {
         width: 90%;
     }
     .carousel {
-        left: -320px;
+        left: -340px;
     }
     .item {
         gap: 40px 20px;
@@ -1234,6 +1286,11 @@ nav {
     }
 }
 @media (max-width: 340px) {
+    .carousel {
+        left: -320px;
+    }
+}
+@media (max-width: 300px) {
     .carousel {
         left: -300px;
     }
