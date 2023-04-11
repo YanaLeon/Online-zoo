@@ -2029,7 +2029,10 @@ input[type=range]::-ms-thumb {
         left: 290px;
     }
     .mini-testimonials.open {
-        left: 150px;
+        position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
       }
     #testimonials-carousel {
         max-height: 360px;
